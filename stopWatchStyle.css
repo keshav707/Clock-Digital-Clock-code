@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+
+    background-image: url('https://cdn3.vectorstock.com/i/1000x1000/29/97/background-with-gears-and-stopwatch-vector-1332997.jpg ');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.border{
+    width: 400px;
+    /* height: 40vh; */
+    border: 4px solid black;
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+#button{
+    width: 400px;
+    
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    /* border: 4px solid black;
+    background-color: gray; */
+    display: flex;
+    justify-content: space-around;
+}
+input{
+    height: 50px;
+    width: 80px;
+    background-color: green;
+    font-size: 2rem;
+    color: white;
+    border: 2px groove black;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clock</title>
+    <style>
+      * {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        
+      }
+      body{
+        background-image: url('https://img.pikbest.com/ai/illus_our/20230427/c0cf1a83bb6c46d95ac653d3b1f3a4da.jpg!w700wp');
+        background-size: cover;
+      }
+      .container {
+        display: flex;
+        margin-top: 50px;
+        margin-left: 50px;
+      }
+      div {
+        height: 210px;
+        width: 300px;
+        border: 2px solid black;
+        background-color: white;
+        font-size: 2rem;
+        margin-right: 150px;
+        color: black;
+        background-color: grey;
+      }
+      span {
+        background-color: transparent;
+        cursor: pointer;
+        padding-left: 20%;
+      }
+      .wait {
+        
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        text-align: center;
+        line-height: 5rem;
+        font-size: 5rem;
+
+        cursor: pointer;
+        
+        background-image: url('https://t4.ftcdn.net/jpg/02/10/45/95/360_F_210459536_XmLDEcKq2DpeNLVmheuWeu9NM9aGKnih.jpg');
+        background-size: cover;
+        border: 2px solid black;
+      }
+
+      p{
+        color: green;
+        font-weight: bolder;
+        font-family: 'Courier New', Courier, monospace;
+        font-style: oblique;
+        font-size: 3rem;
+      }
+      
+      img{
+        width: 300px;
+        height: 80%;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+
+      <div class="button1">
+        <img src="https://e0.pxfuel.com/wallpapers/530/538/desktop-wallpaper-digital-clock-t-digital-code-thumbnail.jpg">
+        <span>Digital Clock</span>
+      </div>
+
+      <div class="button2">
+        <img src="https://images.pexels.com/photos/359989/pexels-photo-359989.jpeg?cs=srgb&dl=pexels-aphiwat-chuangchoem-359989.jpg&fm=jpg" alt="">
+        <span>StopWatch</span>
+      </div>
+    </main>
+    <p class="wait"></p>
+
+    <script src="MainFunct.js">
+      
+    </script>
+  </body>
+</html>
